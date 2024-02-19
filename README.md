@@ -60,7 +60,7 @@ docker-compose up
 docker run --network="host" -it cockroachdb/cockroach:v19.2.1 sql --insecure -e "$(cat ./scripts/create.db.sql)"
 ```
 
-3. Build [web application](ui/README.md)
+3. Build [web application](web/README.md)
 
 4. Start server
 

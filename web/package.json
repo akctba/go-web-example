@@ -2,7 +2,7 @@
   "name": "empty-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,14 +16,15 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.3",
-    "@babel/preset-env": "^7.8.3",
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
     "@babel/preset-react": "^7.8.3",
     "bootstrap": "^4.4.1",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-prettier": "^3.1.2",
-    "parcel-bundler": "^1.12.4",
+    "parcel": "^2.0.0",
     "prettier": "^1.19.1",
     "sass": "^1.25.1-test.1"
   }
